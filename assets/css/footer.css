@@ -1,0 +1,27 @@
+
+footer{
+    color:white;
+    background-color: rgba(22,22,22,0.75)!important;
+    padding-top: 120px;
+    width: 100%;
+}
+
+footer nav{
+    background-color: transparent;
+}
+@media (max-height:800px){
+	footer { position: static; }
+	
+}
+footer .social >a:hover{
+    color:rgba(22,22,22,var(--second-opacity));
+}
+#copyright{
+    padding: 15px 0;
+    width: 100%;
+    background-color: rgba(22,22,22,var(--second-opacity));
+    color: rgba(255, 255, 255,0.5)
+}
+footer a:hover, footer a:focus, footer a{
+    color: white;
+}

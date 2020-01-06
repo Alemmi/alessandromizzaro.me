@@ -1,0 +1,22 @@
+#page .contact-icon >i{
+    font-size: 32px;
+    padding: 5px 5px;
+    margin-right: 20px
+}
+#page .contact-text >p{
+    color:#f8faff;
+    color: rgba(22,22,22,var(--main-opacity));
+    font-size: 15px;
+}
+#page .contact-item{
+    align-items: flex-start;
+    width: 100%;
+}
+#page #contact{
+    margin-top:0;
+}
+@media screen and (max-width: 768px) { 
+    #page #contact{
+        margin-top:50px;
+    }
+}

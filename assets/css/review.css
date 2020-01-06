@@ -1,0 +1,15 @@
+
+#review .review-item{
+    margin-left:30px;
+}
+#review .review-item{
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(22,22,22,var(--main-opacity));
+    border-radius: 10px;
+}
+#review .review-item  .review-title{ 
+  border-bottom: 1px solid rgba(22,22,22,var(--second-opacity));
+  margin-bottom: 10px;
+
+}

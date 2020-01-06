@@ -1,0 +1,22 @@
+.post{
+    margin-top:75px;
+}
+
+#post .container{
+    background-color: #f8faff;
+    padding: 30px 30px!important;
+    border-radius: 10px;
+}
+#post img{
+   margin-bottom:100px;
+}
+#post .post-content >p{
+    word-wrap: break-word;
+    margin-bottom:75px;
+ }
+ #post .post-content >.title{
+    margin: 20px 0px;
+ }
+ #post .primary-btn:hover{
+    color:white!important;
+ }

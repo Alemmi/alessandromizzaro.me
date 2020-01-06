@@ -1,0 +1,35 @@
+section#page{
+    margin:50px 0;
+}
+.navbar-brand{
+    background: -webkit-linear-gradient(rgb(230, 230, 230), rgb(181, 181, 181))!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.nav-link {
+    color:white!important;
+} 
+.nav_scrolled .nav-link{
+    color: rgba(0,0,0,.5)!important;
+}
+.nav_scrolled .navbar-brand{
+    background: -webkit-linear-gradient(rgb(181, 181, 181), #222)!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+@media screen and (max-width: 992px) { 
+    nav{
+        background-color: white;
+    }
+     .nav-link{
+        color: rgba(0,0,0,.5)!important;
+    }
+    footer .nav-link{
+        color:white!important;
+    }
+    .navbar-brand{
+        background: -webkit-linear-gradient(rgb(181, 181, 181), #222)!important;
+        -webkit-background-clip: text!important;
+        -webkit-text-fill-color: transparent!important;
+    }
+}

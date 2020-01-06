@@ -1,0 +1,42 @@
+section#about .primary-btn{
+    margin-top:40px;
+}
+section#about img{
+    max-height: 100%;
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 5%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width:768px){
+    section#about img{
+        max-height: auto;
+        width: 75%;
+        border-top-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+        border-bottom-left-radius: 10%;
+        border-top-right-radius: 5%;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+}
+section#services .item i{
+    font-size: 70px;
+    margin-bottom: 45px;
+}
+section#services .item h4{
+    margin-bottom: 20px;
+}
+
+section#blog .thumbnail img {
+    height: 200px;
+    width:auto;
+}
+section#blog .card:hover{
+    transform: scale(1.01);
+    background-color: rgba(0, 0, 0, 0.3);
+    color:#f8faff;
+    
+}
