@@ -19,7 +19,6 @@ $(document).ready(function(){
                   var $href = temp;
             }
             var $anchor = $($href).offset();
-            console.log($anchor);
             $('html, body').animate({
                   scrollTop:$anchor.top - 100
             },400);
