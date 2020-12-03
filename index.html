@@ -61,7 +61,12 @@ permalink: /
         </div>
     </div>
 </section>
+{% assign count_posts = site.posts | size %}
+{% if count_posts >0 %}
 <section id='blog'>
+{%else}
+<section id='blog' style="height: 70vh;">
+{%endif%}
     <div class="container">
         <div class="row justify-content-start align-items-center">
             <div class="col-12">
@@ -72,7 +77,7 @@ permalink: /
             </div>
         </div>
         <div class="row justify-content-start align-items-flex text-center d-flex" id="item-list">
-            {% assign count_posts = site.posts | size %}
+            
             {% if count_posts >0 %}
                 {% for post in site.posts limit:3 %}
                 <div class="col-lg-4 item mb-4">
@@ -98,9 +103,19 @@ permalink: /
                 {% endfor %}
             {%else%}
                 <div class="col-lg-4 offset-lg-4 item mb-4">
-                    There are no posts :(
+                    There is no posts :(
                 </div>
             {%endif%}
         </div>
     </div>
+</section>
+<section id="cc">
+    <div class="blockquote-wrapper">
+  <div class="blockquote">
+    <h1>
+        Give me a<span style="color:#ffffff">&lsaquo;</span> and a <span style="color:#ffffff">query</span> and I <span style="color:#ffffff">~~500 INT3RNAL SERVER ERROR~@</span> 
+     </h1>
+    <h4>—Jared Spool<br><em>Web Site Usability: A Designer's Guide</em></h4>
+  </div>
+</div>
 </section>
